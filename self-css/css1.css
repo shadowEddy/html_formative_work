@@ -59,6 +59,7 @@ a:hover {
     line-height: 50px;
     padding-left: 30px;
     font-size: 16px;
+    text-transform: capitalize;
 }
 
 .nav a:hover {
@@ -84,4 +85,17 @@ a:hover {
 
 .blank a:hover {
     color: #777777;
+}
+
+.top-image {
+    height: 300px;
+    width: 500px;
+    /* this should be commented when add the image to the block */
+    background-color: #777777;
+}
+
+.top-image img {
+    display: block;
+    height: 100%;
+    padding: 0px;
 }
