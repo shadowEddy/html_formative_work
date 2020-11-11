@@ -55,7 +55,7 @@ a:hover {
 .nav a {
     display: block;
     height: 50px;
-    width: 100%;
+    /* width: 100%; */
     line-height: 50px;
     padding-left: 30px;
     font-size: 16px;
@@ -63,4 +63,25 @@ a:hover {
 
 .nav a:hover {
     background-color: #eeeeee;
+}
+
+.page-title {
+    text-transform: capitalize;
+}
+
+.blank {
+    border-bottom: solid #eeeeee;
+    height: 75px;
+}
+
+.blank a {
+    display: block;
+    color: #474747;
+    padding: 10px;
+    padding-top: 10px;
+    /* height: 100%; */
+}
+
+.blank a:hover {
+    color: #777777;
 }
