@@ -91,7 +91,7 @@ a:hover {
     height: 300px;
     width: 500px;
     /* this should be commented when add the image to the block */
-    background-color: #777777;
+    /* background-color: #777777; */
 }
 
 .top-image img {
