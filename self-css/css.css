@@ -1,0 +1,11 @@
+.image {
+    width: 40%;
+    height: 35%;
+    float:left;
+    /* this should be commented when add the image to the block */
+}
+
+.main body {
+    width: 60%;
+    float:right;
+}
